@@ -9,3 +9,8 @@ Observação: Os algoritmos aqui implementados tem objetivos puramente didático
 Algoritmos implementados:
 
 - Pesquisa Binária
+
+## Tecnologias Utilizadas
+
+- Typescript
+- Jest
