@@ -13,7 +13,11 @@
  * @param myArray 
  * @returns The index of number or null.
  */
-export default function binarySearch(myArray: number[], number: number): number | null{
+export function binarySearch(myArray: number[], number: number): number | null{
+
+  if(!Number.isInteger(number)){
+    return null;
+  }
 
   if(!Array.isArray(myArray)){
     return null;
